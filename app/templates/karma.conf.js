@@ -21,7 +21,7 @@ exclude = [
 
 // test results reporter to use
 // possible values: dots || progress || growl
-reporters = ['progress'];
+reporters = ['progress', 'growl'];
 
 // web server port
 port = 8080;
@@ -47,7 +47,7 @@ autoWatch = false;
 // - Safari (only Mac)
 // - PhantomJS
 // - IE (only Windows)
-browsers = ['Chrome'];
+browsers = ['Chrome', 'Firefox'];
 
 // If browser does not capture in given timeout [ms], kill it
 captureTimeout = 5000;
