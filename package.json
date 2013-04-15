@@ -1,21 +1,23 @@
 {
-  "name": "generator-karma",
+  "name": "generator-grails-karma",
   "version": "0.2.0",
   "description": "Yeoman generator for Karma",
   "keywords": [
     "yeoman-generator",
+    "yeoman-grails-generator",
+    "grails",
     "yeoman",
     "generator",
     "test",
     "runner"
   ],
-  "homepage": "https://github.com/yeoman/generator-karma",
-  "bugs": "https://github.com/yeoman/generator-karma/issues",
-  "author": "Chrome Developer Relations",
+  "homepage": "https://github.com/zanthrash/generator-grails-karma",
+  "bugs": "https://github.com/zanthrash/generator-grails-karma/issues",
+  "author": "Zan Thrash",
   "main": "app/index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/yeoman/generator-karma.git"
+    "url": "git://github.com/zanthrash/generator-grails-karma.git"
   },
   "scripts": {
     "test": "mocha --reporter spec"
